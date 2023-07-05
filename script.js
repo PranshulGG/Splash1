@@ -3,7 +3,7 @@ svg.style.opacity = 1;
 
 const all = document.querySelector("#all");
 const spider = document.querySelector("#spider");
-const logotype = document.querySelector("#logotype");
+const logotype = document.querySelector("#logotype"); 
 
 const line = document.querySelector("#line");
 const lineLength = line.getTotalLength();
