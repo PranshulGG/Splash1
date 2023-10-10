@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+
+  <section id="intro" class="section section--intro">
+    <div class="mouse-tracker-layer"></div>
+    <div class="square-dark-wrapper">
+    <div class="square-dark"></div>
+    </div>
+    
+
+
+    <div class="fadi-logo-group">
+    
+    <svg class="outer-logo-circle" viewBox="0 0 700 700">
+     <circle class="circle" fill="none" cx="350" cy="350" r="330"/>
+    </svg>
+
+
+  <img class="fadi-logo" src="logo.png" alt="">
+    
+    
+    <div class="square-wrapper">
+     <div class="line"></div>
+     <div class="line"></div>
+     <div class="line"></div>
+     <div class="line"></div>
+    </div>
+    
+    </div>
+    
+    <h1 class="fadi-words">
+     <span class="fadi-word">MadeBy</span>
+      <div class="line-separator"></div>
+     <span class="fadi-word">Pranshul</span>
+    </h1>
+    <div class="bg-lines-wrapper"></div>
+    </section>
+
+    <audio id="lobby-sound">
+      <source src="sound.ogg" type="audio/mpeg">
+    
+    </audio>
+    <script>
+
+      window.addEventListener('DOMContentLoaded', (event) => {
+        var sound = document.getElementById("lobby-sound");
+        sound.play();
+      });
+
+      setTimeout(function() {
+    window.location.href = "https://pranshulgg.github.io/Start1/";
+  }, 7000);
+      
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
